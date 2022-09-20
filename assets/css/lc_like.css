@@ -1,0 +1,202 @@
+/*font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Handlee', cursive;*/
+
+/*
+    color list
+    #50586C
+    #DCE2F0
+
+    #815854
+    #F9EBDE
+
+    #2BAE66
+    #FCF6F5
+
+    #FAEBEF
+    #333D79
+
+    #F2EDD7
+    #755139
+
+    #FFD662
+    #00539C
+*/
+
+/* LIKE */
+
+.like_all{
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    background: #FAEBEF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.like_1{
+    background: #DCE2F0;
+}
+
+.like_1 h2{
+    color: #50586C;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.like_1 .form-check-label{
+    border: 1px solid #DCE2F0;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.like_1 .form-check-label::before{
+    background-color: #50586C;
+    color: #50586C;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #50586C;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.like_1 .form-check-label img {
+    width: 142px;
+    height: 142px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.like_1 :checked + label {
+    border-color: #50586C;
+}
+
+.like_1 :checked + label:before {
+    content: "✓";
+    background-color: #50586C;
+    transform: scale(1);
+}
+
+.like_1 :checked + label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #50586C;
+    z-index: -1;
+}
+
+.like_1 .like_submit{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    margin-top: -25px;
+    background: #50586C;
+    border-color: #50586C;
+}
+
+.like_1 .like_submit i{
+    color: #DCE2F0;
+}
+
+.like_2{
+    background: #50586C;
+}
+
+.like_2 h2{
+    color: #DCE2F0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.like_2 .form-check-label{
+    border: 1px solid #50586C;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.like_2 .form-check-label::before{
+    background-color: #DCE2F0;
+    color: #DCE2F0;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #DCE2F0;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.like_2 .form-check-label img {
+    width: 142px;
+    height: 142px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.like_2 :checked + label {
+    border-color: #DCE2F0;
+}
+
+.like_2 :checked + label:before {
+    content: "✓";
+    background-color: #DCE2F0;
+    transform: scale(1);
+}
+
+.like_2 :checked + label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #DCE2F0;
+    z-index: -1;
+}
+
+.like_2 .like_submit{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    margin-top: -25px;
+    background: #DCE2F0;
+    border-color: #DCE2F0;
+}
+
+.like_2 .like_submit i{
+    color: #50586C;
+}
+
+/* LIKE */

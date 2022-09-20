@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="assets/css/lc_intro.css">
+    <link rel="stylesheet" href="assets/css/lc_signup.css">
+    <link rel="stylesheet" href="assets/css/lc_like.css">
+    <link rel="stylesheet" href="assets/css/lc_modal.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jua&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@300;400;700&display=swap');
+    </style>
+    <title>LINK&nbsp;CHART</title>
+</head>
+<body>
+
+<div class="intro_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="text-center" style="margin-bottom:0">
+                    <h1>
+                        L&nbsp;i&nbsp;n&nbsp;k&nbsp;&nbsp;C&nbsp;h&nbsp;a&nbsp;r&nbsp;t
+                    </h1>
+                    <p>
+                        by fourward
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container signup">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div id="first">
+                <div class="myform form ">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1>Login</h1>
+                        </div>
+                    </div>
+                    <form action="" method="post" name="login">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                        </div>
+                        <div class="col-md-12 text-center ">
+                            <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="login-or">
+                                <hr class="hr-or">
+                                <span class="span-or">or</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <p class="text-center">
+                                <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
+                                </i> Signup using Google
+                                </a>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div id="second">
+                <div class="myform form ">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1 >Signup</h1>
+                        </div>
+                    </div>
+                    <form action="#" name="registration">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">First Name</label>
+                            <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Last Name</label>
+                            <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                        </div>
+                        <div class="col-md-12 text-center mb-3">
+                            <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <div class="form-group">
+                                <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="like_all like_1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 class="text-center">
+                    선호하는 언론사는?
+                </h2>
+                <form action="/action_page.php">
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check1">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check2">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check3">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check3" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check4">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check4" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check5">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check5" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check6">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check6" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check7">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check7" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check8">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check8" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check9">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check9" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check10">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check10" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check11">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check11" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check12">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check12" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check13">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check13" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check14">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check14" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check15">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check15" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check16">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check16" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check17">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check17" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check18">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check18" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check19">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check19" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check20">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check20" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check21">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check21" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check22">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check22" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check23">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check23" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check24">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check24" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check25">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check25" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary like_submit">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="like_all like_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 class="text-center">
+                    선호하는 종목은?
+                </h2>
+                <form action="/action_page.php">
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check01">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check01" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check02">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check02" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check03">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check03" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check04">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check04" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check05">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check05" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check06">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check06" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check07">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check07" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check08">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check08" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check09">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check09" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check010">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check010" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check011">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check011" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check012">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check012" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check013">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check013" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check014">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check014" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check015">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check015" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check016">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check016" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check017">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check017" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check018">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check018" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check019">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check019" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check020">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check020" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check021">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check021" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check022">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check022" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check023">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check023" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check024">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check024" name="vehicle1" value="something">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="check025">
+                            <img src="http://lorempixel.com/100/100" />
+                            <input type="checkbox" class="form-check-input" id="check025" name="vehicle2" value="something">
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary like_submit">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_section">
+    <div class="container">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#">
+                L&nbsp;i&nbsp;n&nbsp;k&nbsp;&nbsp;C&nbsp;h&nbsp;a&nbsp;r&nbsp;t
+            </a>
+
+            <span class="navbar-text mr-auto ml-auto">
+                T&nbsp;I&nbsp;T&nbsp;L&nbsp;E
+            </span>
+
+            <form action="#" class="calendar">
+                <input type="date" class="date_empty placeholder-date" data-placeholder=""/>
+            </form>
+
+            <form class="form-inline search" action="#">
+                <input class="form-control mr-sm-2" type="text" placeholder="검색">
+                <button class="btn btn-success" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <ul class="navbar-nav">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <button type="button" class="btn btn-primary dropdown-item" data-toggle="modal" data-target="#myModal">
+                            로그인
+                        </button>
+                        <a class="dropdown-item" href="#">
+                            마이페이지
+                        </a>
+                        <button type="button" class="btn btn-primary dropdown-item" data-toggle="modal" data-target="#myModal2">
+                            관심 종목
+                        </button>
+                        <button type="button" class="btn btn-primary dropdown-item" data-toggle="modal" data-target="#myModal3">
+                            관심 뉴스
+                        </button>
+                        <button type="button" class="btn btn-primary dropdown-item" data-toggle="modal" data-target="#myModal4">
+                            공유한 뉴스
+                        </button>
+                        <button type="button" class="btn btn-primary dropdown-item" data-toggle="modal" data-target="#myModal5">
+                            인물 뉴스
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container chart_container">
+        <div id="myChart"></div>
+    </div>
+
+    <div class="container table_container">
+        <table class="table">
+            <tbody>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>thumbnail</td>
+                <td>Lorem ipsum dolor sit amet,</td>
+                <td>
+                    <a href="#">
+                        <i class="fa-solid fa-share"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="container login_container">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="sub_subject modal fade" id="myModal2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">
+                            관심 종목
+                        </h2>
+                        <form action="/action_page.php">
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-01">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-01" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-02">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-02" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-03">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-03" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-04">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-04" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-05">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-05" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-06">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-06" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-07">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-07" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-08">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-08" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-09">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-09" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-010">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-010" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-011">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-011" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-012">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-012" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-013">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-013" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-014">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-014" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-015">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-015" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-016">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-016" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-017">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-017" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-018">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-018" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-019">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-019" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-020">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-020" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-021">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-021" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-022">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-022" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-023">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-023" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-024">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-024" name="vehicle1" value="something">
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="check-025">
+                                    <img src="http://lorempixel.com/100/100" />
+                                    <input type="checkbox" class="form-check-input" id="check-025" name="vehicle2" value="something">
+                                </label>
+                            </div>
+                        </form>
+                        <button type="button" class="close sub_subject_close" data-dismiss="modal">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sub_subject modal fade" id="myModal3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">
+                            관심 뉴스
+                        </h2>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <button type="button" class="close sub_subject_close" data-dismiss="modal">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sub_subject modal fade" id="myModal4">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">
+                            공유한 뉴스
+                        </h2>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <button type="button" class="close sub_subject_close" data-dismiss="modal">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sub_subject modal fade" id="myModal5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">
+                            인물 뉴스
+                        </h2>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>thumbnail</td>
+                                <td>Lorem ipsum dolor sit amet,</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-solid fa-share"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <button type="button" class="close sub_subject_close" data-dismiss="modal">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/common.js"></script>
+
+</body>
+</html>

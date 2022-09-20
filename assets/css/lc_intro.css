@@ -1,0 +1,70 @@
+/*font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Handlee', cursive;*/
+
+/*
+    color list
+    #50586C
+    #DCE2F0
+
+    #815854
+    #F9EBDE
+
+    #2BAE66
+    #FCF6F5
+
+    #FAEBEF
+    #333D79
+
+    #F2EDD7
+    #755139
+
+    #FFD662
+    #00539C
+*/
+
+/* INTRO_PAGE */
+
+.intro_page{
+    height: 100vh;
+    font-family: 'Handlee', cursive;
+    overflow: hidden;
+    background: #DDC6B6;
+}
+
+.intro_page .container{
+    height: 100%;
+}
+
+.intro_page .row{
+    height: 100%;
+}
+
+.intro_page .row .col-md-12{
+    position: relative;
+}
+
+.intro_page .text-center{
+    width: 250px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -36px;
+}
+
+.intro_page .text-center h1{
+    margin: 0;
+    font-weight: 700;
+    color: #262223;
+}
+
+.intro_page .text-center p{
+    margin: 0;
+    color: #262223;
+    text-align: right;
+}
+
+/* INTRO_PAGE */
